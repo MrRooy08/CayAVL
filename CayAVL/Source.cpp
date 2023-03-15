@@ -191,7 +191,7 @@ Node* deleteNode(Node* node, int x)
 
     }
 
-   /* if (node == NULL) return node;*/
+    if (node == NULL) return node;
 
     node->height = 1 + max(height(node->left), height(node->right));
 
